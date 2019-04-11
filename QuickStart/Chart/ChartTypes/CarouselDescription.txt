@@ -1,0 +1,1 @@
+﻿Telerik RadChart supports 17 common chart types: Area, Bar, Bezier, Candlestick, Line, Pie, Point, Gantt, Babble, Stacked Bar, Stacked Bar 100%, Stacked Area, Stacked Area 100%, Spline, Spline Area, Stacked Spline Area, and Stacked Spline Area 100.

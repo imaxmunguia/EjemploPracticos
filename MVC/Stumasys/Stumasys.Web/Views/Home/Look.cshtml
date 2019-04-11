@@ -1,0 +1,40 @@
+﻿@model Stumasys.Model.Person
+@{
+    ViewBag.Title = Model.FirstName + " " + Model.LastName;
+}
+
+<ol class="breadcrumb">
+    <li><a href="~/">Students</a></li>
+    <li class="active">@(Model.FirstName + " " + Model.LastName)</li>
+</ol>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Personal Info</div>
+    <div class="panel-body">
+        <dl class="dl-horizontal">
+            <dt>First Name</dt>
+            <dd>@Model.FirstName</dd>
+            <dt>Last Name</dt>
+            <dd>@Model.LastName</dd>
+        </dl>    
+    </div>
+</div>
+
+@if (Model.Courses.Count > 0)
+{ 
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Selected Courses</h3>
+        </div>
+        <div class="panel-body">
+            <ul class="list-group">
+                @foreach (var item in Model.Courses)
+                {
+                    <li class="list-group-item">
+                        @item.Title
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+}

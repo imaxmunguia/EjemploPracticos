@@ -1,0 +1,1 @@
+You can use the built-in prnting functionality of RadGridView to print its data.

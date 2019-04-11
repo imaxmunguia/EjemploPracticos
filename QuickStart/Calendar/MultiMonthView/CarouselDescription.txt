@@ -1,0 +1,1 @@
+﻿RadCalendar can be easily configured to show more than one month in the calendar area. To enable this functionality you need to set AllowMultipleView to true, and then specify MultiViewColumns  and MultiViewRows the number of month columns/rows in the Multiview.

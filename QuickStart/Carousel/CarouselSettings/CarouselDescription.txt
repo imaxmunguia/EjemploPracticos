@@ -1,0 +1,1 @@
+﻿This example demonstrates the Enable looping, Visible items count, Virtual mode, Autoloop, and Autoloop direction.

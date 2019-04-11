@@ -1,0 +1,1 @@
+﻿<html>The <i>RadPropertyGrid</i> is a component that can be used to display and modify the properties of a given object.</html>

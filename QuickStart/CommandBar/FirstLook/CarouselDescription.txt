@@ -1,0 +1,1 @@
+﻿<html>Telerik <b>RadCommandBar</b> is a flexible component for implementing tool and button strips, needed in most Windows applications. The product supports  tool drag-and-drop, toggling buttons, shrinkable toolbars for limited window space, and can nest any RadControl, such as buttons, images, labels, etc.

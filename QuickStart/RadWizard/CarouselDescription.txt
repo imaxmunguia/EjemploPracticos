@@ -1,0 +1,1 @@
+﻿<html>Telerik <b>RadWizard</b> for WinForms helps you to break a complex process into separate steps and provide your users with the opportunity to guide the process and make decisions. <b>RadWizard</b> supports both Wizard97 and Wizard Aero specifications, provides the developers with predesigned pages and rich and intuitive to use design time capabilities.</html>

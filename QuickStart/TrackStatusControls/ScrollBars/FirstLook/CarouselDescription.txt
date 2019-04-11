@@ -1,0 +1,1 @@
+﻿This example demonstrates the Telerik RadScrollBar and several of its properties.

@@ -1,0 +1,1 @@
+﻿RadForm can be used in Multiple Document Interface (MDI) scenarios. With MDI, a single menu bar and/or toolbar is shared between all child windows, reducing clutter and increasing the efficient use of screen space. RadForm fits well in MDI cases by providing minimize, restore, maximize, and inactive states.

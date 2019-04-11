@@ -1,0 +1,1 @@
+﻿The example presents the Moving Average indicator, a set of Financial indicators, as well as the Ohlc and Candlestick series. Use the RadDropDownLists to explore the different indicator types.

@@ -1,0 +1,5 @@
+﻿<html>RadPageView supports three different navigation modes, which can be switched between through a single property. Each implements a different layout strategy, making it unique in its presentation: 
+<br>
+• <i>StripView</i> is essentially a TabStrip
+• <i>OutlookView</i> resembles Outlook's NavPane 
+• <i>StackView</i> is a ListBar.

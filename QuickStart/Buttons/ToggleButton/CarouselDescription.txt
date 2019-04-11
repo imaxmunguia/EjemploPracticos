@@ -1,0 +1,1 @@
+﻿You can allow users to rearrange tabs at run-time via drag-and-drop. Once dragging begins, the tabstrip will hint where the drop will appear by showing visual pointers in between tabs. You can turn this option off entirely by setting the AllowDragDrop property to false.

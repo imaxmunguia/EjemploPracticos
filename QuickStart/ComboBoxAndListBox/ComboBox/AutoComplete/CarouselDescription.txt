@@ -1,0 +1,1 @@
+﻿<html><b>RadDropDownList</b> has full autocomplete support - as soon as the user starts typing, the DropDownList selects or fills-in the first matching entry from the list. The different autocomplete modes of RadDropDownList are <i>Suggest, Append, SuggestAppend,</i> and <i>Off.</i>

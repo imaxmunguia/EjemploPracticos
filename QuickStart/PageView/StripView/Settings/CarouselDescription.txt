@@ -1,0 +1,8 @@
+﻿<html><b>RadPageView</b> offers a myriad of settings which allow for deep customization of the items’ strip and content area, such as:
+• Strip alignment and position
+• Item size, alignment, fitment, spacing and orientation 
+• Text orientation
+• Animated drag and drop support with visual pointers, allowing for tab reordering
+• Extended automatic scrolling and overflow support 
+• Dedicated close button for each tab/page 
+and more.

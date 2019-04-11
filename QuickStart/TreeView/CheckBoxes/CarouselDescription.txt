@@ -1,0 +1,1 @@
+﻿This example shows the check box and radio button support of RadTreeView. Radio buttons and check boxes can be added to any treeview node and support all three states (checked, unchecked and indeterminate).

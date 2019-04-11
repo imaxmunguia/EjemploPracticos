@@ -1,0 +1,3 @@
+﻿<html>The <i>StackView</i> mode resembles the PanelBar's base view, but extends the default functionality with fully customizable header and footer, giving you extra flexibility in the presentation. The Items in <i>StackView</i> mode are organized in a stack (either vertical or horizontal) and the content area/page is either centered or aligned at the top/bottom within each stack, depending on the orientation. The StackView supports two selection modes:<br>
+• <i>Standard</i> where the selected item is simply highlighted, and the page positioned at the top/bottom is updated; <br>
+• <i>ContentWithSelected</i> where the page shows up next to the item itself.

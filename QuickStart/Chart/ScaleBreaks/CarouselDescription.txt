@@ -1,0 +1,1 @@
+﻿Scalebreaks allow you to "break off" large chunks of the axis so that graphs with great amplitudes are easier to read.

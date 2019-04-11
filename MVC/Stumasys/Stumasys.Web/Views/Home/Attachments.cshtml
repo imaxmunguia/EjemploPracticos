@@ -1,0 +1,13 @@
+﻿@model List<Stumasys.Model.Attachment>
+
+<ul class="list-group">
+    @foreach(var item in Model)
+    {
+        <li class="list-group-item">
+            <a href="~/Uploads/@item.FileName" target="_blank">@item.FileName</a>
+        </li>
+    }
+</ul>
+
+
+

@@ -1,0 +1,1 @@
+﻿RadRibbonBar supports Collapsing/Expanding tool chunks on resize - when it is being resized, and more specifically, when it's being shrinked, it automatically collapses the tool chunks to save space. Respectively, when it’s being enlarged, it expands the chunks according to the available space.

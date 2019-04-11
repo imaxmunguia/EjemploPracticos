@@ -1,0 +1,1 @@
+﻿The Telerik Track and Status controls are a set of UI controls designed to help you build interactive user interfaces for your Windows Forms applications. These controls are similar to existing Windows Forms controls, but offer a new level of customization and attractiveness.

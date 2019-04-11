@@ -1,0 +1,1 @@
+﻿The Time Zone support in Telerik Scheduler allows events and tasks to be displayed in different time zones. This example demostrates the TimeZone behavior in the different views.

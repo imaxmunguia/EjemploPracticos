@@ -1,0 +1,1 @@
+﻿Telerik RadDock helps you manage multiple windows in your application with a docking system like the one in Microsoft Visual Studio. You get dockable ToolWindows, and a designer that help creating attractive layouts easy, through fully interactive design-time layout management. RadDock also offers MDI and Tabbed Document support.

@@ -1,0 +1,1 @@
+﻿The Multi-axes support allows you to plot several chart series simultaneously while using different axes in a single chart. Our customers find this feature extremely useful in scenarios that require comparison of different object characteristics described by distinct values versus a common base characteristic.

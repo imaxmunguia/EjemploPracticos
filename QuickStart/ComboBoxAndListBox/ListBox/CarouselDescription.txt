@@ -1,0 +1,1 @@
+﻿<html>The Telerik <b>RadListControl</b> displays a list of items from which we can make a selection. You can select one or more than one of the items from the list by holding the CTRL key.

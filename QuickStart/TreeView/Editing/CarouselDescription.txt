@@ -1,0 +1,1 @@
+﻿RadTreeView allows for editing the content of its nodes. You can easily edit the value or the text of a node. In order to edit other custom data contained in the node, you can handle the ValueChanging and EditorInitialized events.

@@ -1,0 +1,1 @@
+﻿RadForm is the Telerik counterpart of the standard Windows Form, but supercharged with rounded corners, themes, MDI support, and full integration with the rest of the Telerik controls. All features are easy and intuitive to use, available immediately after adding RadForm to your project.

@@ -1,0 +1,2 @@
+﻿Telerik RadComboBox is a flexible component for building drop-down interfaces in Windows applications and an enriched alternative to the standard combo box control. Use it to make your combo boxes do things you never thought possible. It supports flexible theming, images, several drop-down modes, sorting, three autocompletion modes, multi-line text in the drop-down list, and more.
+RadListBox is a themable listbox control that displays a list of items from which you can select.

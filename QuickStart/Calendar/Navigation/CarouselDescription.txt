@@ -1,0 +1,1 @@
+﻿RadCalendar provides two types of navigation for switching to new views (months): Previous/next month and Jump X months forward/backward.

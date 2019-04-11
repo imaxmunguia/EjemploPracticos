@@ -1,0 +1,1 @@
+﻿This example demonstrate the grouping in RadScheduler Timeline view.

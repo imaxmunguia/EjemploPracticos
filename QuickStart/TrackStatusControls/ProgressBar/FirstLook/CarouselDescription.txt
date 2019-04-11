@@ -1,0 +1,1 @@
+﻿RadProgressBar is a themeable progress bar control designed to display progress information during a long-running operation. In addition to using the Telerik Presentation Framework for theming, it offers other advantages over the standard Windows Forms ProgressBar control.

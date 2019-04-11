@@ -1,0 +1,1 @@
+﻿RadLabel is a themeable alternative to the standard Windows Forms label control. It allows you to include a label in your applications that is consistent in look and feel with the rest of the RadControls in your application.

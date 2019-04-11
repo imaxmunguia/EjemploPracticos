@@ -1,0 +1,1 @@
+﻿RadDock has the capability of automatically finding and attaching Multiple Document Interface (MDI) child forms as tabbed documents.

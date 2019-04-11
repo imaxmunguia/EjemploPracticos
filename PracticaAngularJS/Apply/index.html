@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="MyAppModule">
+<head>
+	<meta charset="utf-8">
+	<title>Practica</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+	<script src="angular-local-storage.min.js"></script>
+	<script src="controller.js"></script>
+</head>
+<body ng-controller="MyAppController">
+	<p>Ciudad de Mexico</p>
+	<h1>{{horaAutomatica | date:'HH:mm:ss':'-0500'}}</h1>
+	<br>
+	<p>San Pedro Sula</p>
+	<h1>{{horaAutomatica | date:'HH:mm:ss':'-0600'}}</h1>
+	<br>
+	<button id="mi_boton">Actualizar hora</button>
+	<button ng-click="myFunc()">Actualizar hora</button>
+    <h1>{{horaManual | date:'mediumTime':'-0600'}}</h1>
+	<br>
+</html>

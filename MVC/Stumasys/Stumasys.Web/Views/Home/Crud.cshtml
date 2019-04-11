@@ -1,0 +1,258 @@
+﻿@model Stumasys.Model.Person
+@{
+    ViewBag.Title = (Model.PersonID>0 ? Model.FirstName + " " + Model.LastName : "New Account");
+    List<Stumasys.Model.Course> allCourses = ViewBag.allCourses;
+}
+
+<ol class="breadcrumb">
+    <li><a href="~/">Students</a></li>
+    <li class="active">@(Model.PersonID > 0 ? Model.FirstName + " " + Model.LastName : "New Account")</li>
+</ol>
+
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+            <a href="#personalInformation" aria-controls="home" role="tab" data-toggle="tab">
+                Information
+            </a>
+        </li>
+        @if (Model.PersonID > 0)
+        {
+            <li role="presentation">
+                <a href="#attachments" aria-controls="profile" role="tab" data-toggle="tab">
+                    Attachments
+                </a>
+            </li>
+        }
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane active" role="tabpanel" id="personalInformation">
+            
+            @using (Html.BeginForm("Save", "Home", FormMethod.Post, new { id = "frmStudent" }))
+            {
+                @Html.HiddenFor(x => x.PersonID)
+                <div class="panel panel-default">
+                    <div class="panel-heading">Personal</div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.FirstName, "First Name")
+                            @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.FirstName, null, new { @class = "label label-danger" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.LastName, "Last Name")
+                            @Html.TextBoxFor(x => x.LastName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.LastName, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Courses</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            @foreach (var item in allCourses)
+                            {
+                                var boolFlag = false;
+                                foreach (var c in Model.Courses)
+                                {
+                                    if (item.CourseID == c.CourseID)
+                                    {
+                                        boolFlag = true;
+                                        break;
+                                    }
+                                }
+                                <li class="list-group-item">
+                                    <label><input type="checkbox" @(boolFlag ? "checked" : "") name="selectedCourses" value="@item.CourseID" /> @item.Title </label>
+                                </li>
+                            }
+                        </ul>
+                        @Html.ValidationMessage("coursesMsgError", new { @class = "label label-danger", id = "coursesValidation" })
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="text-right">
+                        @if (Model.PersonID > 0)
+                        {
+
+                            <a class="btn btn-danger"  
+                               data-toggle="confirmation"
+                               data-singleton="true"
+                               data-btn-ok-label="Continue" 
+                               data-btn-ok-class="btn-success"
+                               data-btn-ok-icon-class="material-icons" 
+                               data-btn-ok-icon-content="check"
+                               data-btn-cancel-label="Cancel" 
+                               data-btn-cancel-class="btn-danger"
+                               data-btn-cancel-icon-class="material-icons" 
+                               data-btn-cancel-icon-content="close"
+                               data-title="Account" 
+                               data-content="Are you sure you want to delete the record?" 
+                               href="~/Home/Delete?PersonID=@Model.PersonID">
+                                Delete
+                            </a>
+                        }
+
+                        <button type="submit" id="btnSave" class="btn btn-primary">Save</button>
+                        @*<a href="~/Home/Delete?PersonID=@Model.PersonID"
+                             onclick="return confirm('Are you sure you want to delete the record?');"
+                             class="btn btn-danger">
+                              Delete
+                          </a>                    
+                          <input type="button" id="btnSave"  class="btn btn-primary" value="Save" />*@
+                    </div>
+                </div>
+            }
+        </div>
+    
+    
+        @if (Model.PersonID > 0)
+        {
+            <div role="tabpanel" class="tab-pane" id="attachments">
+ 
+                @using (Html.BeginForm("Attach", "Home", FormMethod.Post, new { id = "frmAttachments", enctype = "multipart/form-data"  }))
+                {
+                    <div class="panel panel-default">
+                        <div class="panel-heading">File</div>
+                        <div class="panel-body">
+                            <input type="hidden" name="_personID" value="@Model.PersonID" />
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
+                                    <div class="form-group">
+                                        <input class="file" type="file" name="file" />
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 col-md-3  col-lg-2">
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        Attach
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                @if (Model.Attachments.Count > 0)
+                {
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Attachments</div>
+                        <div class="panel-body">
+                            <div id="loadedAttachments"></div>        
+                        </div>
+                    </div>
+                } 
+            </div>
+        }
+    </div>
+</div>
+
+<script type="text/javascript">
+    console.log('Bootstrap ' + $.fn.tooltip.Constructor.VERSION);
+    console.log('Bootstrap Confirmation ' + $.fn.confirmation.Constructor.VERSION);
+
+
+
+    $(document).ready(function () {
+        @if (Model.PersonID > 0)
+        {
+            <text>
+                loadAttachments();
+            </text>
+        }
+
+        $("#frmStudent").submit(function () {
+            var form = $(this);
+
+            if (form.validate()) {
+                form.ajaxSubmit({
+                    dataType: 'JSON',
+                    type: 'POST',
+                    url: form.attr('action'),
+                    success: function (r) {
+                        if (r.State) {
+                            window.location.href = r.Redirect;
+                        }
+                        else {
+                            $("#coursesValidation").text(r.Error)
+                                                   .show();
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        alert(errorThrown);
+                    }
+                });
+            }
+            return false;
+        })
+
+        $("#frmAttachments").submit(function () {
+            var form = $(this);
+
+            form.ajaxSubmit({
+                dataType: 'JSON',
+                type: 'POST',
+                url: form.attr('action'),
+                success: function (r) {
+                    if (r.State) {
+                        loadAttachments();
+                    }
+                    else {
+                        alert(r.Error);
+                    }
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert(errorThrown);
+                }
+            });
+
+            return false;
+        })
+    })
+
+    function loadAttachments()
+    {
+                                                           
+        $("#loadedAttachments").load("@Url.Content("~/Home/Attachments?_personID=" + Model.PersonID)");
+    }
+</script>
+
+@*<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //debugger;
+            $("#btnSave").click(function () {
+                $.ajax({
+                    type: "POST",
+                    //url: "/Home/Save",
+                    //data: '{name: "' + $("#txtName").val() + '" }',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        alert("alertsuccess");
+                        debugger;
+                        if (response.State) {
+                            window.location.href = response.Redirect;
+                            return;
+                        }
+                        else {
+                            $("#coursesValidation").text(response.Error)
+                                                   .show();
+                        }
+                    },
+                    failure: function (response) {
+                        alert("alertfailure");
+                        debugger;
+                        alert(response.responseText);
+                    },
+                    error: function (response) {
+                        alert("alerterror");
+                        debugger;
+                        alert(response.Error);
+                    }
+                });
+            });
+        });
+    </script>*@

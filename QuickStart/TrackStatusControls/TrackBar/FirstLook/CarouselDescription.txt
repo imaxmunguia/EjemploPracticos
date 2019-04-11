@@ -1,0 +1,1 @@
+﻿The Telerik TrackBar control is a special slider control that allows the user to select a value on a bar by moving a slider. It can be oriented horizontally, vertically, or at an arbitrary angle, and supports theming using the intuitive Telerik Theme Builder.

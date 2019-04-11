@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RotatorItems>
+	<Item name="Kiosk" execute="http://www.telerik.com/community/code-library/winforms/general/bookstore-kiosk-demo-winforms-with-wpf-flavor.aspx">
+		<image src="Rotator\Kiosk.png" />
+		<text>Bookstore Kiosk</text>
+		<text>Demo Application</text>		
+	</Item>	
+	<Item name="HelpDesk" execute="http://www.telerik.com/community/forums/open-source-projects/helpdesk-winforms.aspx">
+		<image src="Rotator\helpdesk.png" />
+		<text>Telerik HelpDesk</text>
+		<text>Demo Application</text>		
+	</Item>
+  <Item name="CAB" execute="http://www.telerik.com/products/winforms/cab_support.aspx">
+    <image src="Rotator\CAB.png" />
+    <text>Telerik CAB</text>
+    <text>Enabling Kit</text>
+  </Item>
+</RotatorItems>

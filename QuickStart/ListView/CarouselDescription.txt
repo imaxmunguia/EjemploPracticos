@@ -1,0 +1,1 @@
+﻿RadListView is a component that can display a flat collection of objects in three different ways: as a list, as icons or in a grid-like interface which can show detailed description of each item.

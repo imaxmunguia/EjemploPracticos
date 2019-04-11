@@ -1,0 +1,1 @@
+﻿RadMaskedEditBox is a highly customizable, intelligent component for controlled data input in Windows Forms applications. It enhances the functionality of RadTextBox by adding input validation and masks, such as dates, currency, percentages, IP Address, SSN, phone numbers, digits, decimals, and fixed System.Drawing.Point fraction. Supports theming and globalization.

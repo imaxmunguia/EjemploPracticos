@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirst.Web", "EFCodeFirst.Web\EFCodeFirst.Web.csproj", "{663DC757-DB8E-4981-85AF-C983482DEC38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirst.Users.Web", "EFCodeFirst.Users.Web\EFCodeFirst.Users.Web.csproj", "{B88523B0-68A8-45F4-AAEC-0852F826B784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{663DC757-DB8E-4981-85AF-C983482DEC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663DC757-DB8E-4981-85AF-C983482DEC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663DC757-DB8E-4981-85AF-C983482DEC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663DC757-DB8E-4981-85AF-C983482DEC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88523B0-68A8-45F4-AAEC-0852F826B784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88523B0-68A8-45F4-AAEC-0852F826B784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88523B0-68A8-45F4-AAEC-0852F826B784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88523B0-68A8-45F4-AAEC-0852F826B784}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

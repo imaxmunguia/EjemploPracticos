@@ -1,0 +1,46 @@
+﻿@model List<CursoASPNETMVC.Models.Pelicula>
+@{
+    ViewBag.Title = "MyAction";
+}
+
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li><h2>MyAction</h2></li>
+    </ul>
+    @Html.Partial("_LoginPartial")
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Duracion</th>
+            <th>Pais</th>
+            <th>Estreno</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            @*Se coloca la clase danger si la pelicula no esta en cartelera*@
+        var clsFila = (!p.EstaEnCartelera) ? "danger" : string.Empty;
+
+            <tr class="@clsFila">
+                <td>@p.Titulo</td>
+                <td>@p.Duracion</td>
+                <td>@p.Pais</td>
+                <td>@p.FechaEstreno.ToString("dd/MM/yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Html.Display("Pelicula")
+@Html.Editor("Pelicula")
+
+@Html.DropDownList("ddlPeliculas", (List<SelectListItem>)ViewBag.ListaPeliculas, "Pelicula")
+
+@{
+    Html.RenderAction("Contact");
+}
+

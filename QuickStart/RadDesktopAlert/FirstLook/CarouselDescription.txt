@@ -1,0 +1,1 @@
+﻿<html>The <i>RadDesktopAlert</i> is a component that can be used to show a small notification popup on the screen to inform the user of an event that occured.

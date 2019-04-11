@@ -1,0 +1,1 @@
+﻿This example demonstrates the orientation support of the RadMenu. The Orientation property determines the orientation of the control and takes two values: Horizontal (default) and Vertical. When Orientation is set for the menu, its value will determine the flow of the root group as well. You can set the Orientation property programmatically as well.

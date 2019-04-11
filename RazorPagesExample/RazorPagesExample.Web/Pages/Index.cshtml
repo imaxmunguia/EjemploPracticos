@@ -1,0 +1,55 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <div class="row">
+        <form method="post">
+            <h1>Fomulario</h1>
+            <input type="text" name="idDoc" placeholder="idDoc" />
+            <input type="submit" value="Enviar" />
+        </form>
+    </div>
+    <div class="row">
+        <form method="post">
+            <h1>Fomulario Persona</h1>
+            <input asp-for="@Model.persona.id" placeholder="idDoc" />
+            <input asp-for="@Model.persona.nombre" placeholder="idDoc" />
+            <input type="submit" value="Enviar" asp-page-handler="Persona" />
+        </form>
+    </div>
+    <div class="row">
+        <form>
+            <h1>Fomulario Persona Ajax</h1>
+            <input asp-for="@Model.persona.id" placeholder="idDoc" />
+            <input asp-for="@Model.persona.nombre" placeholder="idDoc" />
+            <input id="enviar" type="submit" value="Ajax"/>
+        </form>
+    </div>
+</div>
+
+<script>
+        $('#enviar').on('click', function () {
+        $.ajax({
+            type: "POST",
+            url: "/Index",
+            data: JSON.stringify({
+                codigoTipoIdentificacion: "CEDULA",
+                identificacion: "02-0553-0947"
+            }),
+            contentType: "application/json; charset=utf-8",
+            ApiKey: "jfoiuewjf982u30fjid08j33232+32e32d3++3323232dsfwefe=",
+            dataType: "json",
+            success: function (response) {
+                $.each(response, function (i, item) {
+                    alert(response.numeroCuentaIban);
+                });
+            },
+            failure: function (response) {
+                alert(response);
+            }
+        });
+    });
+</script>    

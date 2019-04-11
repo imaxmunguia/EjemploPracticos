@@ -1,0 +1,6 @@
+﻿Telerik RadChart is a lightweight, easy-to-use data presentation component that offers support for all popular chart types. Stunning Vista looks, wide set of style presets and an innovative Chart Wizard for virtually codeless development make it the perfect charting add-on to any application. Key features: 
+
+• 17 chart types with comprehensive Chart wizard with real-time preview and full changes rollback
+• Intelligent automatic data binding, X Axis data binding 
+• Skin support, shading, different colors for series and for items in a serie 
+• Drill-down, active (hot) regions, automatic scaling of axes

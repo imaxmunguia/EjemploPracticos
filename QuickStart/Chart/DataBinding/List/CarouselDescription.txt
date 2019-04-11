@@ -1,0 +1,1 @@
+﻿RadChart can be automatically bound to an any data source that implements an IList interface, like any Lists, IBindingList or a CollectionBase objects.

@@ -1,0 +1,1 @@
+﻿RadDateTimePicker supports showing dates and time in different formats and cultures.

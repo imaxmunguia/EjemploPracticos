@@ -1,0 +1,8 @@
+﻿Telerik Buttons are part of the RadUIElements suite. Controls included:
+• Regular Button 
+• Check Box
+• DropDown Button 
+• Radion Button
+• Repeat Button
+• Split Button 
+• Toggle Button

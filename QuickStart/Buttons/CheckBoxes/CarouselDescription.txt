@@ -1,0 +1,1 @@
+﻿The Telerik RadCheckBox replaces the WinForms CheckBox control and adds robust data binding, state management, and design options.

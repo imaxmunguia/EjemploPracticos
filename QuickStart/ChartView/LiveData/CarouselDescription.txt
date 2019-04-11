@@ -1,0 +1,1 @@
+﻿This example demonstrates how the ChartView can handle  typical business scenarios where real-time process monitoring is required. To illustrate this, the chart is set to auto refresh every 200 milliseconds with new data.

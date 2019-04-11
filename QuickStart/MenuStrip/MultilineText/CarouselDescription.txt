@@ -1,0 +1,1 @@
+﻿The Telerik RadMenu creates attractive and flexible menus, designed to be easy for users to use, but with the flexibility to include advanced features such as multi-line text, top-level icons, icons above text, and more.

@@ -1,0 +1,6 @@
+﻿•  Create any custom shape for buttons, panels and forms effortlessly
+•  Apply shapes to any RadControl UI element
+•  Supports Bezier curves for complete control over objects
+•  Included intuitive Shape Editor productivity tool
+
+Click on the image to run the example.

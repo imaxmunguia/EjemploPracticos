@@ -1,0 +1,1 @@
+﻿RadTreeView facilitates the display, management, and navigation of hierarchical data structures, and is the perfect replacement of the standard treeview component for WinForms. It combines highly-efficient rendering, Classic or Windows7-style looks, superior performance, full drag-and-drop capabilities, and nearly codeless development experience.

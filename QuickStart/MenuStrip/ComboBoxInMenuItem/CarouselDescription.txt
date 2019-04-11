@@ -1,0 +1,1 @@
+﻿You can nest RadControls within RadMenu. This feature gives you enormous flexibility in building functionality into applications and allows you to create complex custom user interfaces featuring text boxes, combo boxes, or other custom elements within the menu area.

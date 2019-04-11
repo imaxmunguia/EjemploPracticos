@@ -1,0 +1,1 @@
+﻿This example demonstrates the RadDock control with Visual Studio 2008 Theme.

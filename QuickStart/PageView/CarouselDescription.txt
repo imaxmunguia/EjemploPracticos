@@ -1,0 +1,1 @@
+﻿<html>With Telerik <b>PageView</b> for WinForms you can create slick-looking tabstrips/panelbars through countless configurations: vertical, hierarchical or overlapping tabs, mimic Outlook’s NavPane, insert images in your items, add templates, etc. Thanks to its extended architecture, <b>RadPageView</b> guarantees excellent performance behavior when having lots of page views.

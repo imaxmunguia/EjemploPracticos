@@ -1,0 +1,1 @@
+﻿RadCarousel is a navigation control that allows the user to navigate through an application in an interactive and innovative manner. Build on top of the Telerik Presentation Framework (TPF), RadCarousel supports databinding, smooth animations and transitions, automatic generation of image reflections, and dynamic addition and removal of items.

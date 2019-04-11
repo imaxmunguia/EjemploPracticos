@@ -1,0 +1,3 @@
+﻿RadForm is Telerik's skinnable alternative of the standard Windows form. It allows you to design and display
+MS Office 2007-like rounded forms. You can couple this control with RadTitleBar or RadStatusStrip to easily
+add forms with a completely custom look and feel to your applications.

@@ -1,0 +1,1 @@
+﻿RadTreeView supports Right-to-left layout and can be used in multilingual applications.

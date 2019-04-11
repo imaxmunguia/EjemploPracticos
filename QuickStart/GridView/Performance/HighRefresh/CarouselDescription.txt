@@ -1,0 +1,1 @@
+﻿RadGridView is capable of refreshing its data in an instant. This demo shows data being loaded in a 15x15 grid, which is refreshed constantly to show the true UI refreshing and performance capabilities of the control.

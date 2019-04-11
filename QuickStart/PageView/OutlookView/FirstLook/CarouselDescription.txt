@@ -1,0 +1,1 @@
+﻿<html>The PageView's <i>OutlookView</i> mode offers a professional and flexible Outlook 2007©-style navigation menu where items are stacked vertically and their content is displayed on top of the stack. An overflow strip lies below the items, which displays the collapsed items and provides an overflow drop-down menu from which the user can modify the item’s visibility.

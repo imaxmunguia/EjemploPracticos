@@ -1,0 +1,1 @@
+﻿This example demonstrates the ability of RadScheduler to support start/end working time.

@@ -1,0 +1,1 @@
+﻿RadCalendar supports both single and multi-date selection. To enable multi-date selection you should set AllowMultipleSelect property to "true", so that each day you click will be selected/unselected respectively. You can also use the column and row buttons (days and weeks) to select blocks of dates.

@@ -1,0 +1,3 @@
+﻿This example demonstrates the ability to navigate through dates by using day/week/month steps. The step is defined by the user. 
+
+Note that ONE step in a month is equal to the number of days in the PREV/NEXT month, i.e. if the next month has more than 28 days, then the step will be equal to 5 weeks, instead of 4. This may lead to some date false positives (aka discrepancies) in the Week and Month views when navigating to PREV/NEXT month.

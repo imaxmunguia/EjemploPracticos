@@ -1,0 +1,1 @@
+﻿RadScheduler supports drag and drop from different RadControls and standard WinForms controls. For example, you can drag an appointment row from RadGridView and it will show in RadScheduler, depending on the drag and drop setting.

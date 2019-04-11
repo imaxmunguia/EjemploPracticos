@@ -1,0 +1,1 @@
+﻿RadDock supports serialization and deserialization. All changes made to the dynamic page layouts can be stored in an XML file and reloaded when needed.

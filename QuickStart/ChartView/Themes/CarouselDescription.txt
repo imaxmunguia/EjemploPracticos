@@ -1,0 +1,1 @@
+﻿As a successor of RadControl, RadChartView fully exploits the theming possibilities of the Telerik Presentation Framework. Apart from the standard themes, the control introduces an alternative styling mechanism - palettes. The above example demonstrates several chart types colored in the various pre-defined palettes coming out-of-the-box.

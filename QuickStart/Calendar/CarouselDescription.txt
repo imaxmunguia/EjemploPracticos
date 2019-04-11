@@ -1,0 +1,1 @@
+﻿RadCalendar is a lightweight yet highly advanced date input control for Windows Forms. It offers zooming, selecting multiple dates, viewing several months at once, globalization support, and can be used as a date picker. 

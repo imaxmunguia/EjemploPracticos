@@ -1,0 +1,1 @@
+﻿This example demonstrates how to use the ScreenTipNeeded event exposed by RadGridView. It can be used to display screentips for cells (or for any descendant of RadItem) in the RadGridView.

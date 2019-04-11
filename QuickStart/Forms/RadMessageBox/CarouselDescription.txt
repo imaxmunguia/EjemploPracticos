@@ -1,0 +1,2 @@
+﻿RadMessageBox allows adding messages or simple dialogs with visual appearance as your application. It inherits RadForm and supports auto-sizing, various button layouts, localization, theming, right-to-left layout, copy to clipboard with Ctrl+C command, and more.
+With RadMessageBox you could use any of predefined themes or apply your custom ones.

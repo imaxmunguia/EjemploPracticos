@@ -1,0 +1,1 @@
+﻿<html><b>RadPageView</b> provides animated drag and drop support with visual pointers, allowing for quick and easy tab reordering.

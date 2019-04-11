@@ -1,0 +1,1 @@
+﻿RadGroupBox is new addition to suite, which supports footers and extended title positioning. The control offers the same functionality as the standard toolbox GroupBox, but adds extra coolness through Telerik’s remarkable styling mechanism.

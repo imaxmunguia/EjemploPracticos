@@ -1,0 +1,1 @@
+﻿RadTreeView supports context (right-click) menus out of the box, which can be customized to be different for each tree node for extra flexibility. Each context menu is fully customizable through the provided styling mechanism.

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<chart width="340px" height="333px">
+	<title text="Globale Internet-Statistiken" font="Verdana, 14px, style=Bold" valign="Top" yoffset="10">
+		<appearance maincolor="240, 240, 240" />
+		<border color="204, 204, 204" />
+		<corners />
+		<appearance maincolor="240, 240, 240" />
+		<border color="204, 204, 204" />
+		<corners />
+	</title>
+	<seriescollection>
+		<series type="Pie" name="Series 1" showlabels="True" PointSize="8" startangle="30">
+			<imagemap />
+			<appearance maincolor="Blue" secondcolor="192, 255, 192" />
+			<border color="Gray" />
+			<corners />
+			<labels offset="10" font="Verdana, 8pt" alignment="TopCenter" distance="0">
+				<appearance maincolor="White" />
+				<border color="76, 0, 0, 0" />
+				<corners />
+			</labels>
+			<items>
+				<item label="Englisch" yvalue="35.6" yvalue2="NaN" xvalue="NaN" xvalue2="NaN" pointsize="-1">
+					<appearance fillstyle="Solid" maincolor="255, 199, 144" secondcolor="AliceBlue" />
+					<border color="Gray" />
+					<corners />
+					<itemmap />
+					<legendmap />
+				</item>
+				<item label="Deutsch" yvalue="7" yvalue2="NaN" xvalue="NaN" xvalue2="NaN" pointsize="-1">
+					<appearance fillstyle="Solid" maincolor="255, 201, 0" secondcolor="AntiqueWhite" />
+					<border color="Gray" />
+					<corners />
+					<itemmap />
+					<legendmap />
+				</item>
+				<item label="Spanisch" yvalue="8" yvalue2="NaN" xvalue="NaN" xvalue2="NaN" pointsize="-1">
+					<appearance fillstyle="Solid" maincolor="255, 132, 0" secondcolor="Aqua" />
+					<border color="Gray" />
+					<corners />
+					<itemmap />
+					<legendmap />
+				</item>
+				<item label="Französisch" yvalue="3.7" yvalue2="NaN" xvalue="NaN" xvalue2="NaN" pointsize="-1">
+					<appearance fillstyle="Solid" maincolor="164, 207, 235" secondcolor="Aquamarine" />
+					<border color="Gray" />
+					<corners />
+					<itemmap />
+					<legendmap />
+				</item>
+				<item label="Chinesisch" yvalue="12.2" yvalue2="NaN" xvalue="NaN" xvalue2="NaN" pointsize="-1">
+					<appearance fillstyle="Solid" maincolor="0, 198, 3" secondcolor="Azure" />
+					<border color="Gray" />
+					<corners />
+					<itemmap />
+					<legendmap />
+				</item>
+			</items>
+		</series>
+	</seriescollection>
+	<gridlines>
+		<horizontalgridlines penstyle="Dot" />
+		<verticalgridlines penstyle="Dot" />
+	</gridlines>
+	<xaxis itemfont="Times New Roman, 8pt" marklength="5">
+		<label font="Times New Roman, 10pt" valign="Top">
+			<appearance />
+			<border />
+			<corners />
+		</label>
+	</xaxis>
+	<yaxis maxaxisitems="15" step="20" itemfont="Times New Roman, 8pt" marklength="5">
+		<label font="Times New Roman, 10pt" textdirection="Left">
+			<appearance />
+			<border />
+			<corners />
+		</label>
+	</yaxis>
+	<legend itemfont="Times New Roman, 10pt" visible="False">
+		<appearance />
+		<border />
+		<corners />
+	</legend>
+	<margins left="0px" right="0px" top="34px" bottom="0px" />
+	<background>
+		<appearance fillstyle="Image" maincolor="FloralWhite" secondcolor="AliceBlue" gradientfillstyle="Vertical" imageurl="~/chart/images/demoChartBg.jpg" />
+		<border color="Gray" />
+		<corners />
+	</background>
+	<plotarea>
+		<appearance gradientfillstyle="Vertical" />
+		<border />
+		<corners topleft="Round" topright="Round" bottomleft="Round" bottomright="Round" roundsize="6" />
+	</plotarea>
+</chart>

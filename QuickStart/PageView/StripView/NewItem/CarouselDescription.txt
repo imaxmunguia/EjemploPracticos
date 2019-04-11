@@ -1,0 +1,1 @@
+﻿<html>By using system items, <b>RadPageView</b> can be easily customized to support your custom case. The current example shows how to add a system item that appears within the strip, which raises the <i>NewPageRequested</i> event when clicked thus creating a new page.

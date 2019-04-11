@@ -1,0 +1,512 @@
+<Chart Width="625" Height="367" DefaultType="Pie" >
+  <ChartTitle>
+    <TextBlock Text="Consumption by Month">
+      <LabelAppearance>
+        <TextProperties Color="Gray" Font="Arial, 14pt" />
+      </LabelAppearance>
+    </TextBlock>
+    <Marker>
+      <LabelAppearance Visible="False">
+        <Dimensions Height="10px" Width="10px" />
+      </LabelAppearance>
+    </Marker>
+    <LabelAppearance>
+      <Dimensions>
+        <ChartMargins Top="14px" Right="10px" Bottom="14px" Left="10px" />
+        <ChartPaddings Top="3px" Right="5px" Bottom="3px" Left="5px" />
+      </Dimensions>
+    </LabelAppearance>
+  </ChartTitle>
+  <Legend>
+    <TextBlock>
+      <LabelAppearance Visible="False">
+        <TextProperties Font="Arial, 8.25pt" />
+      </LabelAppearance>
+    </TextBlock>
+    <Marker>
+      <LabelAppearance Visible="False">
+        <Dimensions Height="10px" Width="10px" />
+      </LabelAppearance>
+    </Marker>
+  </Legend>
+  <PlotAreasCollection>
+    <PlotArea>
+      <LabelAppearance >
+        <Corners RoundSize="6" TopLeft="Round" TopRight="Round" BottomLeft="Round" BottomRight="Round" />
+        <Dimensions>
+          <ChartMargins Top="50px" Right="100px" Bottom="35px" Left="35px" />
+        </Dimensions>
+      </LabelAppearance>
+      <XAxis>
+        <LabelAppearance Orientation="Horizontal">
+          <Line Color="#A0A09F" Width="1" />
+          <MinorTick Length="2">
+            <Line Color="#A0A09F" Width="1" />
+          </MinorTick>
+          <MajorTick>
+            <Line Color="#A0A09F" Width="1" />
+          </MajorTick>
+          <MinorGridLine>
+            <Line Color="#E6E6E6" Width="1" Visible="False" PenStyle="Dot" />
+          </MinorGridLine>
+          <MajorGridLine>
+            <Line Color="LightGrey" Width="1" Visible="False" PenStyle="Dot" />
+          </MajorGridLine>
+          <TextAppearance>
+            <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+          </TextAppearance>
+        </LabelAppearance>
+        <Range Max="0" Step="1" />
+        <AxisLabel>
+          <TextBlock>
+            <LabelAppearance>
+              <TextProperties Font="Arial, 10pt" />
+            </LabelAppearance>
+          </TextBlock>
+          <Marker>
+            <LabelAppearance Visible="False">
+              <Dimensions Height="10px" Width="10px" />
+            </LabelAppearance>
+          </Marker>
+        </AxisLabel>
+        <Items>
+          <AxisItem>
+            <TextBlock Text="1">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem>
+            <TextBlock Text="2">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem>
+            <TextBlock Text="3">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem>
+            <TextBlock Text="4">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem>
+            <TextBlock Text="5">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+        </Items>
+      </XAxis>
+      <YAxis1>
+        <LabelAppearance Orientation="Vertical">
+          <Line Color="#A0A09F" Width="1" />
+          <MinorTick Length="2">
+            <Line Color="#A0A09F" Width="1" />
+          </MinorTick>
+          <MajorTick>
+            <Line Color="#A0A09F" Width="1" />
+          </MajorTick>
+          <MinorGridLine>
+            <Line Color="#E6E6E6" Width="1" PenStyle="Dot" />
+          </MinorGridLine>
+          <MajorGridLine>
+            <Line Color="#E6E6E6" Width="1" PenStyle="Dot" />
+          </MajorGridLine>
+          <TextAppearance>
+            <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+          </TextAppearance>
+        </LabelAppearance>
+        <Range Max="0" Step="20" />
+        <AxisLabel>
+          <TextBlock>
+            <LabelAppearance>
+              <TextProperties Font="Arial, 10pt" />
+            </LabelAppearance>
+          </TextBlock>
+          <Marker>
+            <LabelAppearance Visible="False">
+              <Dimensions Height="10px" Width="10px" />
+            </LabelAppearance>
+          </Marker>
+          <LabelAppearance RotationAngle="270" />
+        </AxisLabel>
+        <Items>
+          <AxisItem>
+            <TextBlock Text="0">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem>
+            <TextBlock Text="20">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem>
+            <TextBlock Text="40">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem>
+            <TextBlock Text="60">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem>
+            <TextBlock Text="80">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem>
+            <TextBlock Text="100">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+        </Items>
+      </YAxis1>
+      <YAxis2 YAxisType="Secondary">
+        <LabelAppearance Orientation="Vertical">
+          <Line Color="#A0A09F" Width="1" />
+          <MinorTick Length="2">
+            <Line Color="#A0A09F" Width="1" />
+          </MinorTick>
+          <MajorTick>
+            <Line Color="#A0A09F" Width="1" />
+          </MajorTick>
+          <MinorGridLine>
+            <Line Color="#E6E6E6" Width="1" PenStyle="Dot" />
+          </MinorGridLine>
+          <MajorGridLine>
+            <Line Color="#E6E6E6" Width="1" PenStyle="Dot" />
+          </MajorGridLine>
+          <TextAppearance>
+            <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+          </TextAppearance>
+        </LabelAppearance>
+        <Range Min="1" Max="5" Step="1" />
+        <AxisLabel>
+          <TextBlock>
+            <LabelAppearance>
+              <TextProperties Font="Arial, 10pt" />
+            </LabelAppearance>
+          </TextBlock>
+          <Marker>
+            <LabelAppearance Visible="False">
+              <Dimensions Height="10px" Width="10px" />
+            </LabelAppearance>
+          </Marker>
+          <LabelAppearance RotationAngle="270" />
+        </AxisLabel>
+        <Items>
+          <AxisItem Value="1">
+            <TextBlock Text="1">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem Value="2">
+            <TextBlock Text="2">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem Value="3">
+            <TextBlock Text="3">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem Value="4">
+            <TextBlock Text="4">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+          <AxisItem Value="5">
+            <TextBlock Text="5">
+              <LabelAppearance>
+                <TextAppearance>
+                  <TextProperties Color="#A0A09F" Font="Arial, 8.25pt" />
+                </TextAppearance>
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </AxisItem>
+        </Items>
+      </YAxis2>
+      <EmptySeriesMessage>
+        <TextBlock Text="There is no or empty series">
+          <LabelAppearance>
+            <TextProperties Color="Red" Font="Arial, 10pt, style=Bold" />
+          </LabelAppearance>
+        </TextBlock>
+        <Marker>
+          <LabelAppearance Visible="False">
+            <Dimensions Height="10px" Width="10px" />
+          </LabelAppearance>
+        </Marker>
+      </EmptySeriesMessage>
+      <DataTable>
+        <StyleChartDataTable Visible="False">
+          <TextProperties Font="Arial, 8.25pt" />
+        </StyleChartDataTable>
+      </DataTable>
+    </PlotArea>
+  </PlotAreasCollection>
+  <SeriesCollection>
+    <Series Name="Series 1" ChartSeriesType="Pie">
+      <LabelAppearance>
+        <FillStyle MainColor="" SecondColor="" />
+        <TextAppearance>
+          <TextProperties Color="#6F6F6F" Font="Arial, 8.25pt" />
+        </TextAppearance>
+        <PointAppearance Figure="Ellipse">
+          <Dimensions Height="8px" Width="8px" />
+          <FillStyle MainColor="" />
+        </PointAppearance>
+        <Line Color="" />
+      </LabelAppearance>
+      <Items>
+        <SeriesItem XValue="NaN" YValue="35" XValue2="NaN" YValue2="NaN">
+          <LabelAppearance>
+            <FillStyle MainColor="" SecondColor="" />
+          </LabelAppearance>
+          <PointAppearance Figure="Ellipse">
+            <Dimensions Height="8px" Width="8px" />
+            <FillStyle MainColor="" />
+          </PointAppearance>
+          <ItemLabel>
+            <TextBlock Text="Inglйs">
+              <LabelAppearance>
+                <TextProperties Font="Arial, 8.25pt" />
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </ItemLabel>
+        </SeriesItem>
+        <SeriesItem XValue="NaN" YValue="20" XValue2="NaN" YValue2="NaN">
+          <LabelAppearance>
+            <FillStyle MainColor="" SecondColor="" />
+          </LabelAppearance>
+          <PointAppearance Figure="Ellipse">
+            <Dimensions Height="8px" Width="8px" />
+            <FillStyle MainColor="" />
+          </PointAppearance>
+          <ItemLabel>
+            <TextBlock Text="Espaсol">
+              <LabelAppearance>
+                <TextProperties Font="Arial, 8.25pt" />
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </ItemLabel>
+        </SeriesItem>
+        <SeriesItem XValue="NaN" YValue="20" XValue2="NaN" YValue2="NaN">
+          <LabelAppearance>
+            <FillStyle MainColor="" SecondColor="" />
+          </LabelAppearance>
+          <PointAppearance Figure="Ellipse">
+            <Dimensions Height="8px" Width="8px" />
+            <FillStyle MainColor="" />
+          </PointAppearance>
+          <ItemLabel>
+            <TextBlock Text="Francйs">
+              <LabelAppearance>
+                <TextProperties Font="Arial, 8.25pt" />
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </ItemLabel>
+        </SeriesItem>
+        <SeriesItem XValue="NaN" YValue="20" XValue2="NaN" YValue2="NaN">
+          <LabelAppearance>
+            <FillStyle MainColor="" SecondColor="" />
+          </LabelAppearance>
+          <PointAppearance Figure="Ellipse">
+            <Dimensions Height="8px" Width="8px" />
+            <FillStyle MainColor="" />
+          </PointAppearance>
+          <ItemLabel>
+            <TextBlock Text="Alemбn">
+              <LabelAppearance>
+                <TextProperties Font="Arial, 8.25pt" />
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </ItemLabel>
+        </SeriesItem>
+        <SeriesItem XValue="NaN" YValue="20" XValue2="NaN" YValue2="NaN">
+          <LabelAppearance>
+            <FillStyle MainColor="" SecondColor="" />
+          </LabelAppearance>
+          <PointAppearance Figure="Ellipse">
+            <Dimensions Height="8px" Width="8px" />
+            <FillStyle MainColor="" />
+          </PointAppearance>
+          <ItemLabel>
+            <TextBlock Text="Chino">
+              <LabelAppearance>
+                <TextProperties Font="Arial, 8.25pt" />
+              </LabelAppearance>
+            </TextBlock>
+            <Marker>
+              <LabelAppearance Visible="False">
+                <Dimensions Height="10px" Width="10px" />
+              </LabelAppearance>
+            </Marker>
+          </ItemLabel>
+        </SeriesItem>
+      </Items>
+    </Series>
+  </SeriesCollection>
+</Chart>

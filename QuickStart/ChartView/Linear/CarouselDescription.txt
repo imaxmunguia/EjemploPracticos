@@ -1,0 +1,1 @@
+﻿The example gives a glipmse of both Line and Area chart types. Use the RadDropDownLists to explore the different combine modes for each of the chart types.

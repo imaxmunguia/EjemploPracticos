@@ -1,0 +1,1 @@
+﻿This example demonstrates the events, available in RadCarousel: SelectedValueChanged, SelectedItemChanged, SelectedIndexChanged, ItemsChanged, and Click.

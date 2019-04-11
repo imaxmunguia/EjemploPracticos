@@ -1,0 +1,1 @@
+﻿RadTreeView supports localization and can be used in multilingual applications.

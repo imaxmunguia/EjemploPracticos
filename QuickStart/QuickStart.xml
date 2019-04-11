@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<examples Type="controls" Title="RadControls for Winforms">
+
+  <category text="Integration" ImageName="TelerikLogo.png" ImageIndex="10" default="true">
+    <example name="Integration/Magnifier" text="Magnifier Demo" CarouselTitle="Transparency and Alpha-Blending Support" ShowInCarousel="true"/>
+    <example name="Integration/HTMLFormatting" text="HTML-like Formatting" CarouselTitle="HTML-like Text Formatting" />
+    <example name="Integration/ShapeEditor" text="Shape Editor"/>
+    <example name="Integration/BubbleBar" text="BubbleBar" CarouselTitle="BubbleBar Custom Control"/>
+    <example name="Integration/FileExplorer" text="FileExplorer"/>
+    <example name="Integration/BugTracker" text="BugTracker" />
+    <example name="Integration/RssReader" text="RssReader"/>
+    <example name="Integration/PhotoAlbum" text="PhotoAlbum"/>
+    <example name="Integration/MovieLab" text="MovieLab" ShowInCarousel="true" />
+    <example name="Integration/DemoHub" text="DemoHub" ShowInCarousel="true" ExternalPath="..\DemoAppsHub\bin\DemoAppsHub.exe" />
+    <example name="Integration/BookShelf" text="BookShelf" ShowInCarousel="true" ExternalPath="..\BookShelf\bin\BookShelf.exe"/>
+  </category>
+
+  <category text="Buttons" ImageName="Button.png" ImageIndex="8" default="true" path="..\Resources\Carousel\RadUIEllements.png" DescriptionPath ="..\Buttons">
+    <example name="Buttons/FirstLook" text="Button" ShowInCarousel="true" CarouselTitle="Button"/>
+    <example name="Buttons/CheckBoxes" text="Check Box" ShowInCarousel="true" CarouselTitle="Check Box"/>
+    <example name="Buttons/DropDownButton" text="DropDown Button" />
+    <example name="Buttons/RadioButtons" text="Radio Button" ShowInCarousel="true" CarouselTitle="Radio Button"/>
+    <example name="Buttons/RepeatButton" text="Repeat Button" />
+    <example name="Buttons/SplitButton" text="Split Button" ShowInCarousel="true" CarouselTitle="Split Button"/>
+    <example name="Buttons/ToggleButton" text="Toggle Button" ShowInCarousel="true" CarouselTitle="Toggle Button" />
+  </category>
+
+  <category text="Calendar" ImageName="Calendar.png" ImageIndex="15" path="..\Resources\Carousel\RadCalendar.png" DescriptionPath="..\Calendar">
+    <example name="Calendar/FirstLook" text="First Look" default="true" CarouselTitle="First Look" ShowInCarousel="true" />
+    <example name="Calendar/SpecialDays" text="Special days" CarouselTitle="Special days" ShowInCarousel="true" />
+    <example name="Calendar/SingleView" text="SingleMonth View" default="true" />
+    <example name="Calendar/ReadOnly" text="Read Only View" />
+    <example name="Calendar/LayoutCustomization" text ="Layout customization" default="true" />
+    <example name="Calendar/Selection" text="Selection" CarouselTitle="Selection" ShowInCarousel="true" />
+    <example name="Calendar/Navigation" text="Navigation" CarouselTitle="Navigation" ShowInCarousel="true" />
+    <example name="Calendar/MultiMonthView" text ="MultiMonth View" default="true" CarouselTitle="MultiMonth View" ShowInCarousel="true" />
+    <example name="Calendar/DayRenderEvent" text="ElementRender Event" />
+    <example name="Calendar/Events" text="Events" />
+    <example name="Calendar/Globalization" text="Globalization" default="true" />
+  </category>
+
+  <category text="Carousel" ImageName="Carousel.png" ImageIndex="23" default="true" path="..\Resources\Carousel\Carousel.png" DescriptionPath ="..\Carousel" >
+    <example name="Carousel/MusicLibrary" text="First Look" CarouselTitle="First Look" ShowInCarousel="true" />
+    <example name="Carousel/ImageList" text="Events" CarouselTitle="Events" ShowInCarousel="true" />
+    <example name="Carousel/CarouselSettings" text="Carousel Settings" CarouselTitle="Carousel Settings" ShowInCarousel="true" />
+  </category>
+
+<!--
+  <category text="Chart" ImageName="Chart.png" ImageIndex="13" path="..\Resources\Carousel\RadChart.png" DescriptionPath="Chart">
+    <example name="Chart/FirstLook" text="First Look" default="true" CarouselTitle="First Look" ShowInCarousel="true" />
+    <example name="Chart/DrillDown" text="Drill-down" default="true" CarouselTitle="Drill-down" ShowInCarousel="true" />
+    <example name="Chart/EmptyValues" text="Empty Values" default="true" />
+    <example name="Chart/ScaleBreaks" text="Scale Breaks" default="true" CarouselTitle="Scale Breaks" ShowInCarousel="true" />
+    <example name="Chart/MultilineLabels" text="Multiline Labels" default="true" />
+    <example name="Chart/IntelligentLabels" text="Intelligent Labels" default="true" />
+    <example name="Chart/StrictMode" text="Strict Mode" default="true" />
+    <example name="Chart/MarkedZones" text="Marked Zones" default="true" />
+    <example name="Chart/LogarithmicYAxis" text="Logarithmic Y-Axis" default="true" CarouselTitle="Logarithmic Y-Axis" ShowInCarousel="true" />
+    <example name="Chart/DataBinding/Array" text="Array Data Binding" default="true" />
+    <example name="Chart/DataBinding/Database" text="Database Data Binding" default="true" />
+    <example name="Chart/DataBinding/List" text="List Data Binding" default="true" CarouselTitle="List Data Binding" ShowInCarousel="true" />
+    <example name="Chart/DataBinding/XMLBinding" text="XML Data Binding" default="true" />
+    <example name="Chart/Functionality/NegativeValues" text="Negative Values" default="true" />
+    <example name="Chart/Functionality/NumericalAxis" text="Numerical Axis" default="true" />  
+    <category text="Chart Types" ImageName="Chart.png" path="..\Resources\Carousel\RadChart.png" DescriptionPath="..\Chart\ChartTypes">
+      <example name="Chart/ChartTypes/Area" text="Area" default="true" />
+      <example name="Chart/ChartTypes/StackedArea" text="Stacked Area" default="true" />
+      <example name="Chart/ChartTypes/StackedArea100" text="Stacked Area 100" default="true" />
+      <example name="Chart/ChartTypes/Bar" text="Bar" default="true" />
+      <example name="Chart/ChartTypes/StackedBar" text="Stacked Bar" default="true" />
+      <example name="Chart/ChartTypes/StackedBar100" text="Stacked Bar 100" default="true" />
+      <example name="Chart/ChartTypes/Bezier" text="Bezier" default="true" />
+      <example name="Chart/ChartTypes/Bubble" text="Bubble" default="true" />
+      <example name="Chart/ChartTypes/Gantt" text="Gantt" default="true" />
+      <example name="Chart/ChartTypes/Line" text="Line" default="true" />
+      <example name="Chart/ChartTypes/Pie" text="Pie" default="true" />
+      <example name="Chart/ChartTypes/Point" text="Point" default="true" />
+      <example name="Chart/ChartTypes/Spline" text="Spline" default="true" />
+      <example name="Chart/SplineAreas" text="Spline Area" default="true" />
+      <example name="Chart/CandlestickCharts" text="Candle Stick" default="true" />
+    </category>
+  </category>
+-->
+ 
+  <category text="ChartView" ImageName="Chart.png" path="..\Resources\Carousel\RadChart.png" DescriptionPath ="..\ChartView" new="true">
+
+    <example name="ChartView/FirstLook" text="First Look" CarouselTitle="First Look" ShowInCarousel="true" />
+    <example name="ChartView/Themes" text="Appearance" CarouselTitle="Appearance" ShowInCarousel="true" />
+    <example name="ChartView/LiveData" text="Live Data" CarouselTitle="Social Site Live Data" ShowInCarousel="false" />
+    <example name="ChartView/Legend" text="Title and Legend" CarouselTitle="Title and Legend" ShowInCarousel="false" />
+    <example name="ChartView/LabelFormatting" text="Label Formatting" CarouselTitle="Label Formatting" ShowInCarousel="false" />
+    <example name="ChartView/MultiAxes" text="Multi-axes" CarouselTitle="Multi-axes" ShowInCarousel="false" new="true" />
+    <example name="ChartView/SmartLabels" text="Smart labels" CarouselTitle="Smart labels" ShowInCarousel="false" new="true" />
+    <example name="ChartView/DrillDown" text="Drill-down" CarouselTitle="Drill-down" new="true" />
+    <category text="Chart Types" ImageName="Chart.png" path="..\Resources\Carousel\RadChart.png" DescriptionPath="..\ChartView">
+      <example name="ChartView/Bar" text="Bar" default="true" />
+      <example name="ChartView/Linear" text="Line &amp; Area"  />
+      <example name="ChartView/Spline" text="Spline &amp; Spline Area"  />
+      <example name="ChartView/Scatter" text="Scatter"  />
+      <example name="ChartView/Pie" text="Pie" />
+      <example name="ChartView/Polar" text="Polar" />
+      <example name="ChartView/Radar" text="Radar" />
+      <example name="ChartView/StockIndicators" text="Stock Series \ Indicators" />
+    </category>
+
+  </category>
+  
+  <category text="CommandBar" ImageName="CommandBar.png" ImageIndex="7" path="..\Resources\Carousel\CommandBar.png" DescriptionPath ="..\CommandBar">
+    <example name="CommandBar/FirstLook" text="First Look" CarouselTitle="First Look" ShowInCarousel="true" />
+    <example name="CommandBar/TextPad" text="Text Pad" CarouselTitle="Text Pad" ShowInCarousel="true" />
+  </category>
+
+  <category text="DropDown &amp; List" ImageName="DropDownAndList.png" ImageIndex="2" path="..\Resources\Carousel\RadComboBox.png" DescriptionPath="..\ComboBoxAndListBox\ComboBox">
+    <example name="DropDownListAndListControl/ManyItemsLoading" text="Performance" CarouselTitle="Performance" ShowInCarousel="true" />
+    <example name="DropDownListAndListControl/CreateItemVisualAndItemsFormatting" text="Creating New Items" />
+    <example name="DropDownListAndListControl/ItemsFormattinWithHtmlLike" text="Item Formatting" />
+
+    <category text="DropDownList" ImageName="DropDownAndList.png" ImageIndex="2" path="..\Resources\Carousel\RadComboBox.png" DescriptionPath ="..\ComboBox" >
+      <example name="ComboBoxAndListBox/ComboBox/FirstLook" text="First Look" CarouselTitle="ComboBox First Look" ShowInCarousel="true" />
+      <!--<example name="ComboBoxAndListBox/ComboBox/ImagesAndMultiline" text="Multi-Line Text" />-->
+      <example name="ComboBoxAndListBox/ComboBox/AutoComplete" text="Auto complete" CarouselTitle="ComboBox Auto complete" ShowInCarousel="true" />
+      <example name="ComboBoxAndListBox/ComboBox/Sorting" text="Sorting" />
+      <example name="ComboBoxAndListBox/ComboBox/DropDownAnimation" text="DropDown Animation" />
+      <example name="ComboBoxAndListBox/ComboBox/Resizing" text="DropDown Resizing" />
+      <example name="ComboBoxAndListBox/ComboBox/Events" text="Events" />
+      <example name="ComboBoxAndListBox/ComboBox/Binding" text="Data Binding" CarouselTitle="DropDownList Data Binding" ShowInCarousel="true"/>
+      <!--<example name="ComboBoxAndListBox/ComboBox/LoadingItems" text="Loading 5,000 items"  CarouselTitle="ComboBox Loading 5,000 items" ShowInCarousel="true" />
+	  <example name="ComboBoxAndListBox/ComboBox/ItemScaling" text="Item Scaling" />
+	  -->
+    </category>
+    <category text="ListControl" ImageName="DropDownAndList.png" ImageIndex="8" path="..\Resources\Carousel\RadListBox.png" DescriptionPath ="..\ListBox" >
+      <example name="ComboBoxAndListBox/ListBox/DragAndDrop" text="Drag &amp; Drop" CarouselTitle="ListControl Drag &amp; Drop" ShowInCarousel="true" />
+      <example name="ComboBoxAndListBox/ListBox/DataBinding" text="Data Binding" CarouselTitle="ListControl Data Binding" ShowInCarousel="true" />
+      <example name="ComboBoxAndListBox/ListBox/FirstLook" text="Settings" CarouselTitle="ListControl Settings" ShowInCarousel="true"/>
+    </category>
+  </category>
+
+  <category text="Desktop Alert" ImageName="DesktopAlert.png" ImageIndex ="2" path="..\Resources\Carousel\RadComboBox.png" DescriptionPath="..\RadDesktopAlert\FirstLook" >
+    <example name="PageView/FirstLook" text="First Look" CarouselTitle="First Look" ShowInCarousel="true" />
+    <example name="RadDesktopAlert/FirstLook" text="Settings" CarouselTitle="Settings" ShowInCarousel="true" />
+  </category>
+
+  <category text="Dock" ImageName="Dock.png" ImageIndex="3" path="..\Resources\Carousel\RadDock.png" DescriptionPath="..\Docking">
+    <!--<example name="Docking/BugTracker" text="Bug Tracker" SourceFilesPath="..\BugTracker" CarouselTitle="Bug Tracker" ShowInCarousel="true" ExternalPath="..\BugTracker\bin\BugTrackerDemo.exe" />-->
+    <example name="Docking/DragDropAutomation" text="DragDrop Automation" />
+    <example name="Docking/CustomDockTabStrip" text="TabStrip Properties" />
+    <example name="Docking/AutoHide" text="Auto Hide" CarouselTitle="Auto Hide" ShowInCarousel="true" />
+    <example name="Docking/Serialization" text="Serialization" CarouselTitle="Serialization" ShowInCarousel="true" />
+    <example name="Docking/General" text="Programming" />
+    <example name="Docking/TabbedDocument" text="Tabbed Document" CarouselTitle="Tabbed Document" ShowInCarousel="true" />
+    <example name="Docking/MDI" text="MDI" CarouselTitle="MDI support" ShowInCarousel="true" />
+    <example name="Docking/DragDrop" text="DragDrop Service" CarouselTitle="DragDrop Service"/>
+    <example name="Docking/DocumentManager" text="Document Manager" CarouselTitle="Document Manager"/>
+    <example name="Docking/CommandManager" text="Command Manager" CarouselTitle="Command Manager"/>
+    <example name="Docking/VisualStudioIDE" text="Visual Studio IDE" />
+  </category>
+
+  <category text="Editors" ImageName="Editors.png" ImageIndex="8" path="..\Resources\Carousel\RadControls.png" DescriptionPath ="..\Editors">
+    <example name="Editors/FirstLook" text="Text Box" ShowInCarousel="true" CarouselTitle="Text Box" />
+    <example name="Editors/TextBoxControl" text="Text Box Control" ShowInCarousel="false"/>
+    <example name="Editors/AutoCompleteBox" text="AutoComplete Text Box" ShowInCarousel="false" />
+    <example name="Editors/MaskTextBox/NumericBehavior" text ="Masked Edit Box" ShowInCarousel="true" CarouselTitle="Masked Edit Box" />
+    <!--<example name="Editors/MaskTextBox/MaskTypes" text ="Validation" ShowInCarousel="true" CarouselTitle="Validation"/>-->
+    <example name="Editors/DateTimePicker" text="Date-Time Picker" ShowInCarousel="true" CarouselTitle="Date-Time Picker" />
+    <example name="Editors/TimePicker" text="Time Picker" Theming="true"/>
+    <example name="Editors/SpinEdit/FirstLook" text="Spin Editor" ShowInCarousel="true" CarouselTitle="Spin Editor" />
+  </category>
+
+  <category text="Forms &amp; Dialogs" ImageName="Form.png" ImageIndex="24" path="..\Resources\Carousel\RadForm.png" DescriptionPath ="..\RadForm" >
+    <example name="Forms/FirstLook" text="Form, TitleBar, StatusStrip" CarouselTitle="RadForm First Look" ShowInCarousel="true" />
+    <example name="Forms/MDI" text="MDI &amp; Menu Merge" CarouselTitle="Form MDI with Menu Merge" ShowInCarousel="true"/>
+    <example name="Forms/ShapedForm" text="Shaped Form" />
+    <example name="Editors/RadColorSelector/FirstLook" ImageIndex="20" text="Color Dialog" CarouselTitle="Color Dialog" ShowInCarousel="true" />
+    <example name="Forms/RadAboutBox" text="About Box" CarouselTitle="About Box" ShowInCarousel="true" />
+    <example name="Forms/RadMessageBox" text="Message Box" CarouselTitle="Message Box" ShowInCarousel="true" />
+    <example name="StatusStrip" text="Status Strip" />
+  </category>
+
+  <category text="GridView" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView">
+
+    <example name="GridView/FirstLook" text="First Look" CarouselTitle="First Look" ShowInCarousel="true" />
+
+    <category text="Performance" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView" >
+      <example name="GridView/Performance/HighRefresh" text="High Refresh" CarouselTitle="High Refresh" ShowInCarousel="true" />
+      <example name="GridView/Performance/LoadPerformance" text="Load 50,000 Rows" CarouselTitle="Load 50,000 Rows" ShowInCarousel="true" />
+    </category>
+
+    <category text="Populate with data" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView" >
+      <example name="GridView/PopulatingWithData/DataBinding" text="Data Binding" CarouselTitle="Data Binding" ShowInCarousel="true" />
+      <example name="GridView/PopulatingWithData/UnboundMode" text="Unbound Mode" />
+    </category>
+
+    <category text="Manipulate data" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView">
+      <example name="GridView/Expressions" text="Expressions"/>
+      <example name="GridView/TypeConverters" text="Convert Values" />
+      <example name="GridView/Validation" text="Validate Changes" />
+      <example name="GridView/ErrorInfo" text="Indicate Errors" />
+      <example name="GridView/CustomEditors" text="Use Custom Editors" />
+    </category>
+
+    <category text="Customize" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView">
+      <example name="GridView/TableElement" text="Basics" />
+      <example name="GridView/CellStyle" text="Style Cells" />
+      <example name="GridView/ValueFormatting" text="Format Values" />
+      <example name="GridView/ConditionalFormatting" text="Conditional Formatting" />
+      <example name="GridView/CellFormatting" text="Formatting with Code" />
+      <example name="GridView/CustomPainting" text="Custom Painting" CarouselTitle="Custom Painting" ShowInCarousel="false"/>
+      <example name="GridView/Tooltips" text="Tooltips" />
+      <example name="GridView/ScreenTips" text="ScreenTips" />
+    </category>
+
+    <category text="Columns" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView">
+      <example name="GridView/ColumnTypes" text="Column Types"/>
+      <example name="GridView/MultipleViews" text="Grid Views" CarouselTitle="Grid Views" ShowInCarousel="true" />
+      <example name="GridView/RowColumnOperations" text="Column/Row Operations" />
+      <example name="GridView/ColumnChooser" text="Column Chooser" />
+    </category>
+
+    <category text="Rows" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView" >
+      <example name="GridView/NewRow" text="Add New Row" />
+      <example name="GridView/Selection" text="Selection" />
+      <example name="GridView/RowDetails" text="Row Details"/>
+      <example name="GridView/RowsReorder" text="Rows Reorder" />
+      <example name="GridView/RowsDragDrop" text="Rows Drag &amp; Drop" />
+    </category>
+
+    <category text="Filtering" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView">
+      <example name="GridView/Filtering" text="Filtering" />
+      <example name="GridView/FilteringExcelLike" text="Excel Like Filtering"/>
+      <example name="GridView/CustomFiltering" text="Custom Filtering"/>
+      <example name="GridView/CreateRowInfo" text="Custom Filter Row"/>
+    </category>
+
+    <category text="Grouping" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView">
+      <example name="GridView/Grouping" text="Grouping" />
+      <example name="GridView/CustomGrouping" text="Custom Grouping"/>
+      <example name="GridView/GroupSummaries" text="Group Summaries" />
+    </category>
+
+    <category text="Sorting" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView">
+      <example name="GridView/Sorting" text="Sorting" />
+      <example name="GridView/CustomSorting" text="Custom Sorting"/>
+    </category>
+
+    <category text="Hierarchy" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView">
+      <example name="GridView/Hierarchy" text="Hierarchy First Look" CarouselTitle="Hierarchy First Look" ShowInCarousel="true"/>
+      <example name="GridView/ObjectRelationalHierarchy" text="Object-Relational"/>
+      <example name="GridView/LoadOnDemandHierarchy" text="Load On Demand"/>
+      <example name="GridView/FolderTree" text="Self-Reference" />
+      <example name="GridView/TabbedChildViews" text="Tabbed Views" />
+    </category>
+
+    <category text="Export" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView">
+      <example name="GridView/Export" text="Export Methods" />
+      <example name="GridView/ExportHierarchy" text="Export Hierarchy" />
+      <example name="GridView/ExportToExcelEvents" text="ExcelML with Events" />
+      <example name="GridView/GridLayout" text="Save/Load Layout" />
+    </category>
+
+    <category text="Globalization" ImageName="GridView.png" ImageIndex="11" path="..\Resources\Carousel\RadGridView.png" DescriptionPath="..\GridView">
+      <example name="GridView/Localization" text="Localization Support" />
+      <example name="GridView/RTL" text="Right to Left Support" />
+    </category>
+
+    <example name="GridView/Printing" text="Printing" ShowInCarousel="true"/>
+    <example name="GridView/Events" text="Events" />
+    <example name="GridView/Spreadsheet" text="Spreadsheet" />
+    <example name="GridView/SplitView" text="Split View" />
+    <example name="GridView/CustomViews" text="Custom Views"  />
+    <example name="GridView/PinnedRowsColumns" text="Pinned Items" />
+
+  </category>
+
+  <category text="ListView" ImageName="ListView.png" ImageIndex="7" path="..\Resources\Carousel\RadComboBox.png" DescriptionPath ="..\ListView" >
+    <example name="ListView/FirstLook" text="First Look" CarouselTitle="First Look" ShowInCarousel="true"/>
+    <example name="ListView/CustomItems" text="Custom Items" CarouselTitle="Custom Items" ShowInCarousel="true" />
+    <example name="ListView/Settings" text="Settings" CarouselTitle="Settings" ShowInCarousel="true" />
+  </category>
+
+  <category text="Menus" ImageName="Menu.png" ImageIndex="4" path="..\Resources\Carousel\RadMenuStrip.png" DescriptionPath="..\MenuStrip">
+    <example name="MenuStrip/FirstLook" text="Menu First Look" CarouselTitle="Menu First Look" ShowInCarousel="true" />
+    <example name="MenuStrip/ApplicationMenu" text="Application Menu" CarouselTitle="Application Menu" ShowInCarousel="true" />
+    <example name="MenuStrip/MenuOrientation" text="Menu Orientation" CarouselTitle="Menu Orientation" ShowInCarousel="true" />
+    <example name="MenuStrip/BasicStates" text="Controlling Basic States" />
+    <example name="MenuStrip/MultilineText" text="Multiline Text Support" CarouselTitle="Multiline Text Support" ShowInCarousel="true" />
+    <example name="MenuStrip/MenuItemsWithImages" text="Menu Items with Images" />
+    <example name="MenuStrip/ComboBoxInMenuItem" text="Nested RadControls" CarouselTitle="Nested RadControls" ShowInCarousel="true" />
+    <example name="MenuStrip/MenuItemWithCustomElement" text="Embedded Custom Elements" />
+    <example name="MenuStrip/MenuWithHeaderColumn" text="Menu with Header Column" />
+    <example name="MenuStrip/Animation" text="Menu Animations"/>
+  </category>
+
+  <example name="Editors/ComboBox/MultiColumnComboBox" ImageName="MultiColumnComboBox.png" text="MultiColumnCombo" Theming="true" />
+
+  <category text="PageView" ImageName="PageView.png" ImageIndex="6" DescriptionPath = "..\PageView" >
+    <example name="PageView/FirstLook" text="First Look" CarouselTitle="Strip View First Look" ShowInCarousel="true" />
+    <example name="PageView/ViewSwitch" text="View Modes" />
+    <category text="StripView" ImageName="PageView.png" ImageIndex="6" DescriptionPath="..\PageView\StripView" >
+      <example name="PageView/StripView/FirstLook" text="First Look" CarouselTitle="StripView" ShowInCarousel="true" />
+      <example name="PageView/StripView/Settings" text="Settings" CarouselTitle="Settings" ShowInCarousel="true" />
+      <example name="PageView/StripView/ItemDragDrop" text="Item Drag Drop" CarouselTitle="Drag and Drop" ShowInCarousel="true" />
+      <example name="PageView/StripView/HTMLItemText" text="HTML Item Text" />
+      <example name="PageView/StripView/StripButtons" text="Strip Buttons"  />
+      <example name="PageView/StripView/ItemButtons" text="Item Close Button" />
+      <example name="PageView/StripView/NewItem" text="Add New Item" />
+      <example name="PageView/StripView/CheckButtons" text="Custom Theme" />
+    </category>
+    <category text="OutlookView" ImageName="PageView.png" ImageIndex="6" DescriptionPath ="..\PageView\OutlookView" >
+      <example name="PageView/OutlookView/FirstLook" text="OutlookView First Look" CarouselTitle="OutlookView" ShowInCarousel="true"/>
+    </category>
+    <category text="StackView" ImageName="PageView.png" ImageIndex="6" DescriptionPath ="..\PageView\StackView" >
+      <example name="PageView/StackView/FirstLook" text="StackView First Look" CarouselTitle="StackView" ShowInCarousel="true" />
+      <example name="PageView/StackView/CarSelection" text="Car Selection" />
+    </category>
+  </category>
+
+  <category text="Panels &amp; Labels" ImageName="PanelsAndLabels.png" ImageIndex="8" path="..\Resources\Carousel\RadControls.png" DescriptionPath ="..\PanelsLabels">
+    <example name="PanelsLabels/GroupBox" text="GroupBox" ShowInCarousel="true" CarouselTitle="GroupBox" />
+    <example name="PanelsLabels/Panel" text="Panel" ShowInCarousel="true" CarouselTitle="Panel" />
+    <example name="PanelsLabels/Label" text="Label"  ShowInCarousel="true" CarouselTitle="Label" />
+  </category>
+
+  <example name="Integration/DemoHub" ImageName="Panorama.png" text="Panorama" Theming="true" DescriptionPath ="..\Integration\DemoHub\"/>
+  
+  <example name="PdfViewer/FirstLook" ImageName="PdfViewer.png" text="PdfViewer" Theming="true" DescriptionPath ="..\PdfViewer" new="true"/>
+  
+  <category text="PivotGrid" ImageName="PivotGrid.png" ImageIndex="5" path="..\Resources\Carousel\PivotGrid.png" DescriptionPath="..\PivotGrid" new="true">
+    <example name="PivotGrid/FirstLook" text="First Look" CarouselTitle="First Look" ShowInCarousel="true" />
+    <example name="PivotGrid/FieldList" text="Field List" CarouselTitle="Field List" ShowInCarousel="true" />
+    <example name="PivotGrid/Settings" text="Settings" CarouselTitle="Settings" ShowInCarousel="true" />
+    <example name="PivotGrid/LayoutType" text="Layout Types" CarouselTitle="Layout Types" ShowInCarousel="true" />
+    <example name="PivotGrid/OLAP" text="OLAP Support" CarouselTitle="OLAP Support" ShowInCarousel="true" />
+    <example name="PivotGrid/KPIs" text="KPIs" CarouselTitle="KPIs" ShowInCarousel="true" />
+    <example name="PivotGrid/BindingWithChart" text="Binding with RadChartView" CarouselTitle="Binding with RadChartView" ShowInCarousel="true" />
+    <example name="PivotGrid/Printing" text="Printing" CarouselTitle="Printing" ShowInCarousel="true" />
+  </category>
+
+  <category text="PropertyGrid" ImageName="PropertyGrid.png" ImageIndex="5" path="..\Resources\Carousel\RadRibbonBar.png" DescriptionPath="..\PropertyGrid">
+    <example name="PropertyGrid/FirstLook" text="First Look" CarouselTitle="First Look" ShowInCarousel="true" />
+    <example name="PropertyGrid/Settings" text="Settings" CarouselTitle="Settings" ShowInCarousel="true" />
+    <!-- <example name="PropertyGrid/Events" text="Events" CarouselTitle="Events" ShowInCarousel="true" new="true" /> -->
+    <example name="PropertyGrid/Validation" text="Validation" CarouselTitle="Validation" ShowInCarousel="true" />
+    <example name="PropertyGrid/PropertyStore" text="Property Store" CarouselTitle="Property Store" ShowInCarousel="true" />
+  </category>
+
+  <category text="RibbonBar" ImageName="RibbonBar.png" ImageIndex="5" path="..\Resources\Carousel\RadRibbonBar.png" DescriptionPath="..\RibbonBar">
+    <example name="RibbonBar/FirstLook" text="First Look"  CarouselTitle="First Look" ShowInCarousel="true"/>
+    <example name="RibbonBar/ResizingDemo" text="Resizing Demo" CarouselTitle="Resizing Demo" ShowInCarousel="true"/>
+    <example name="RibbonBar/MDILayout" text="MDI Layout" CarouselTitle="MDI Layout" ShowInCarousel="true"/>
+  </category>
+
+  <example name="RichTextBox/Editor" text="RichTextBox" ImageName="RichTextEditor.png" SourceFilesPath="..\TelerikEditor" CarouselTitle="RichTextBox" ShowInCarousel="true" ExternalPath="..\TelerikEditor\bin\TelerikEditor.exe"/>
+
+  <example name="Rotator"  ImageName="Rotator.png" text="Rotator" ImageIndex="17" />
+
+  <category text="Scheduler" ImageName="Scheduler.png" ImageIndex="25" path="..\Resources\Carousel\RadSchedulerWF.png"  DescriptionPath="..\RadScheduler">
+    <example name="RadScheduler/FirstLook" text="First Look" CarouselTitle="First Look" ShowInCarousel="true" />
+    <example name="RadScheduler/Reminder" text="Reminder" CarouselTitle="Reminder" ShowInCarousel="true"/>
+    <example name="RadScheduler/Timeline" text="Timeline" CarouselTitle="Timeline View" ShowInCarousel="true" />
+    <example name="RadScheduler/Grouping" text="Grouping" CarouselTitle="Grouping" ShowInCarousel="true"/>
+    <example name="RadScheduler/TimelineGrouping" text="Timeline Grouping" />
+    <example name="RadScheduler/DragAndDrop" text="Drag&amp;Drop" CarouselTitle="Drag&amp;Drop" ShowInCarousel="true" />
+    <example name="RadScheduler/ICal" text="iCal Import/Export" />
+    <example name="RadScheduler/Printing" text="Printing"/>
+    <example name="RadScheduler/NavigatorSteps" text="Navigator Steps" />
+    <example name="RadScheduler/TimeZones" text="Time Zones" CarouselTitle="Time Zones" ShowInCarousel="true"/>
+    <example name="RadScheduler/Binding" text="Data Binding" />
+    <example name="RadScheduler/Events" text="Events" />
+    <example name="RadScheduler/CustomWorkTime" text="Custom Work Time" />
+    <example name="RadScheduler/CustomAppointmentDialog" text="Custom Appointment Dialog" />
+
+  </category>
+
+  <category text="SplitContainer" ImageName="SplitContainer.png" ImageIndex="11" path="..\Resources\Carousel\RadSplitContainer.png" DescriptionPath="..\GridView" >
+    <example name="SplitContainer/FirstLook" text="First Look" CarouselTitle="First Look" ShowInCarousel="true" />
+    <example name="SplitContainer/Layouts" text="Layouts" CarouselTitle="Layouts" ShowInCarousel="true" />
+  </category>
+
+  <category text="TreeView" ImageName="TreeView.png" ImageIndex="12" path="..\Resources\Carousel\RadTreeView.png" DescriptionPath ="..\TreeView">
+
+    <example name="TreeView/FirstLook" text="First Look" CarouselTitle="First Look" ShowInCarousel="true"/>
+
+    <category text="Populate with data" ImageName="TreeView.png" ImageIndex="12" path="..\Resources\Carousel\RadTreeView.png" DescriptionPath="..\TreeView">
+
+      <example name="TreeView/Populating/SelfReference" text="Self-Reference"/>
+      <example name="TreeView/Populating/DataRelation" text="Data Relation"/>
+      <example name="TreeView/Populating/ObjectRelational" text="Object-Relational"/>
+      <example name="TreeView/Populating/LoadOnDemand" text="Load on Demand"/>
+      <example name="TreeView/Performance" text="Performance" />
+    </category>
+
+    <category text="Customize" ImageName="TreeView.png" ImageIndex="12" path="..\Resources\Carousel\RadTreeView.png" DescriptionPath="..\TreeView">
+      <example name="TreeView/Customize/Basics" text="General settings" CarouselTitle="General settings" ShowInCarousel="true"/>
+      <example name="TreeView/Customize/NodeFormatting" text="Node Formatting" CarouselTitle="Node Formatting" ShowInCarousel="true"/>
+      <example name="TreeView/Customize/CustomNodes" text="Custom Nodes" CarouselTitle="Custom Nodes" ShowInCarousel="true"/>
+      <example name="TreeView/Customize/ContextMenus" text="Context Menus" />
+    </category>
+
+    <category text="Manipulate data" ImageName="TreeView.png" ImageIndex="12" path="..\Resources\Carousel\RadTreeView.png" DescriptionPath="..\TreeView">
+      <example name="TreeView/Editing" text="Editing" CarouselTitle="Editing" ShowInCarousel="true"/>
+      <example name="TreeView/CheckBoxes" text="Options Tree" CarouselTitle="Options Tree" ShowInCarousel="true"/>
+    </category>
+
+    <category text="Globalization" ImageName="TreeView.png" ImageIndex="12" path="..\Resources\Carousel\RadTreeView.png" DescriptionPath="..\TreeView">
+      <example name="TreeView/RightToLeft" text="Right-to-Left Support" />
+      <example name="TreeView/Localization" text="Localization"/>
+    </category>
+
+    <example name="TreeView/Selection" text="Selection"/>
+    <example name="TreeView/DragDrop" text="Drag &amp; Drop" />
+    <example name="TreeView/Events" text="Events" />
+    <example name="TreeView/Serialization" text="XML Serialization" />
+
+  </category>
+
+  <category text="Track &amp; Status" ImageName="TrackAndStatus.png" ImageIndex="8" path="..\Resources\Carousel\RadUIEllements.png" DescriptionPath ="..\UIElements">
+    <example name="TrackStatusControls/ProgressBar/FirstLook" text="Progress Bar" ShowInCarousel="true" CarouselTitle="Progress Bar"/>
+    <example name="TrackStatusControls/ScrollBars/FirstLook" text="Scroll Bar" ShowInCarousel="true" CarouselTitle="Scroll Bar"/>
+    <example name="TrackStatusControls/ScrollBars/Events" text="Scroll Bar Events" ShowInCarousel="true" CarouselTitle="Scroll Bar Events"/>
+    <example name="TrackStatusControls/TrackBar/FirstLook" text="Track Bar" ShowInCarousel="true" CarouselTitle="Track Bar" />
+    <example name="TrackStatusControls/ProgressBar/WaitingBars" text="Waiting Bar" ShowInCarousel="true" CarouselTitle="Waiting Bar" />
+  </category>
+
+  <category text="Wizard" ImageName="Wizard.png" ImageIndex="26" DescriptionPath = "..\RadWizard">
+    <example name="RadWizard/FirstLook" text="First Look" CarouselTitle="FirstLook" ShowInCarousel="true"/>
+    <example name="RadWizard/Modes" text="Modes" CarouselTitle="Modes" ShowInCarousel="true"/>
+  </category>
+
+</examples>

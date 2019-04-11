@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrategia.EjemploRobot.Core", "Estrategia.EjemploRobot.Core\Estrategia.EjemploRobot.Core.csproj", "{6F8B375B-CC22-43E9-9EC3-23EB7775B3AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrategia.EjemploRobot.ConsoleApp", "Estrategia.EjemploRobot.ConsoleApp\Estrategia.EjemploRobot.ConsoleApp.csproj", "{04F4A01E-B8CC-4634-B55E-9A969F2ECEB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F8B375B-CC22-43E9-9EC3-23EB7775B3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8B375B-CC22-43E9-9EC3-23EB7775B3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8B375B-CC22-43E9-9EC3-23EB7775B3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8B375B-CC22-43E9-9EC3-23EB7775B3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F4A01E-B8CC-4634-B55E-9A969F2ECEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F4A01E-B8CC-4634-B55E-9A969F2ECEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F4A01E-B8CC-4634-B55E-9A969F2ECEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F4A01E-B8CC-4634-B55E-9A969F2ECEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E22A9C6-A6D6-4A70-9195-30C8559436FF}
+	EndGlobalSection
+EndGlobal

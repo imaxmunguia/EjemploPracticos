@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>@ViewBag.Title | Stumasys</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap-confirmation.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>
+                Student Management System
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                @RenderBody()
+            </div>
+        </div>
+        <footer>
+            <div class="text-center">
+                <hr />
+                Stumasys &reg 2018 
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.form.min.js"></script>
+    <script type="text/javascript">
+        $('[data-toggle=confirmation]').confirmation({
+            rootSelector: '[data-toggle=confirmation]',
+            container: 'body'
+        });
+
+        $('[data-toggle=confirmation-singleton]').confirmation({
+            rootSelector: '[data-toggle=confirmation-singleton]',
+            container: 'body'
+        });
+    </script>
+</body>
+</html>

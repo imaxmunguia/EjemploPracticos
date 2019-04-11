@@ -1,0 +1,1 @@
+﻿<html>The Text Pad example shows some of the features that the <b>CommandBar</b> supports: horizontal orientation, rearranging via drag and drop, Add/Remove tools, Oveflow support, and Themes.

@@ -1,0 +1,1 @@
+﻿RadScheduler allows you to import and export appointments in the industry-standard iCalendar format and hence exchange your data with scheduling applications that support iCalendar data, such as Microsoft Outlook and Google Calendar.

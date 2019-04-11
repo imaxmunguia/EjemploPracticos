@@ -1,0 +1,22 @@
+﻿@model CursoASPNETMVC.Models.Pelicula
+
+<div class="form-group">
+    @Html.LabelFor(model=>model.Titulo):
+    @Html.DisplayFor(model=>model.Titulo)
+</div>
+<div class="form-group">
+    @Html.LabelFor(model => model.Pais):
+    @Html.DisplayFor(model => model.Pais)
+</div>
+<div class="form-group">
+    @Html.LabelFor(model => model.Duracion):
+    @Html.DisplayFor(model => model.Duracion)
+</div>
+<div class="form-group">
+    @Html.LabelFor(model => model.FechaEstreno,"Estreno"):
+    @Html.DisplayFor(model => model.FechaEstreno)
+</div>
+<div class="form-group">
+    @Html.LabelFor(model => model.EstaEnCartelera,"En Cartelera"):
+    @Html.DisplayFor(model => model.EstaEnCartelera)
+</div>
